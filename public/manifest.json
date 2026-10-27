@@ -1,0 +1,36 @@
+{
+  "name": "NoteWorkspace — Local-First Developer Workspace",
+  "short_name": "NoteWorkspace",
+  "description": "Production-grade, zero-latency local-first workspace for developers and teams.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#181818",
+  "theme_color": "#007acc",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Document",
+      "url": "/?action=new-doc",
+      "description": "Create a new document block"
+    },
+    {
+      "name": "Sprint Kanban",
+      "url": "/?view=kanban",
+      "description": "Open active roadmap board"
+    }
+  ]
+}
